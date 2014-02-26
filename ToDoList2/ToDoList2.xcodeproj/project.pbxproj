@@ -19,6 +19,7 @@
 		DE236CA618BE692F00A59FBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE236C8E18BE692F00A59FBA /* UIKit.framework */; };
 		DE236CAE18BE692F00A59FBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE236CAC18BE692F00A59FBA /* InfoPlist.strings */; };
 		DE236CB018BE692F00A59FBA /* ToDoList2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE236CAF18BE692F00A59FBA /* ToDoList2Tests.m */; };
+		DE236CBA18BE69B400A59FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE236CB918BE69B400A59FBA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		DE236CAB18BE692F00A59FBA /* ToDoList2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoList2Tests-Info.plist"; sourceTree = "<group>"; };
 		DE236CAD18BE692F00A59FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE236CAF18BE692F00A59FBA /* ToDoList2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoList2Tests.m; sourceTree = "<group>"; };
+		DE236CB918BE69B400A59FBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				DE236C9918BE692F00A59FBA /* AppDelegate.h */,
 				DE236C9A18BE692F00A59FBA /* AppDelegate.m */,
+				DE236CB918BE69B400A59FBA /* Main.storyboard */,
 				DE236C9C18BE692F00A59FBA /* Images.xcassets */,
 				DE236C9118BE692F00A59FBA /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE236CBA18BE69B400A59FBA /* Main.storyboard in Resources */,
 				DE236C9518BE692F00A59FBA /* InfoPlist.strings in Resources */,
 				DE236C9D18BE692F00A59FBA /* Images.xcassets in Resources */,
 			);
